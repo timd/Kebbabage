@@ -1,5 +1,5 @@
 //
-//  PostcodeClient.h
+//  FSAClient.h
 //  Kebbabage
 //
 //  Created by Tim on 06/04/2013.
@@ -9,12 +9,16 @@
 #import "AFHTTPClient.h"
 #import "KBBNetworkProtocol.h"
 
-@interface PostcodeClient : AFHTTPClient
+@interface FSAClient : AFHTTPClient
 
 @property (nonatomic, weak) id <KBBNetworkProtocol> delegate;
 
-+ (PostcodeClient *)sharedClient;
-- (id)initWithBaseURL:(NSURL *)url;
--(void)getPostcodeForLat:(float)latitude andLong:(float)longitude;
++(FSAClient *)sharedClient;
+-(id)initWithBaseURL:(NSURL *)url;
+-(void)getOutletsForPostcode:(NSString *)postcode;
+
 
 @end
+
+
+

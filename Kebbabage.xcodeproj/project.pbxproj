@@ -28,6 +28,8 @@
 		22DDC899171026EC00CD41D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */; };
 		22DDC89B1710270900CD41D0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */; };
 		22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A117102B0100CD41D0 /* JsonParser.m */; };
+		22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A617102E6500CD41D0 /* FSAClient.m */; };
+		22DDC8AB1710363C00CD41D0 /* fsa.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DDC8AA1710363C00CD41D0 /* fsa.json */; };
 		52DD6369665046DFB7E4437F /* libPods-KebbabageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */; };
 		D022B13364114B39B407E11E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B465375294EC0911FD204 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -74,6 +76,10 @@
 		22DDC8A017102B0100CD41D0 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
 		22DDC8A117102B0100CD41D0 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
 		22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBBParsingProtocol.h; sourceTree = "<group>"; };
+		22DDC8A417102D1300CD41D0 /* KBBNetworkProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBBNetworkProtocol.h; sourceTree = "<group>"; };
+		22DDC8A517102E6500CD41D0 /* FSAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAClient.h; sourceTree = "<group>"; };
+		22DDC8A617102E6500CD41D0 /* FSAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAClient.m; sourceTree = "<group>"; };
+		22DDC8AA1710363C00CD41D0 /* fsa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fsa.json; sourceTree = "<group>"; };
 		2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KebbabageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B465375294EC0911FD204 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebbabageTests.xcconfig"; path = "Pods/Pods-KebbabageTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -149,6 +155,7 @@
 		22DDC8571710231F00CD41D0 /* Kebbabage */ = {
 			isa = PBXGroup;
 			children = (
+				22DDC8A81710362C00CD41D0 /* Assets */,
 				22DDC8941710261800CD41D0 /* Common */,
 				22DDC88C1710249C00CD41D0 /* App delegate */,
 				22DDC88D171024AB00CD41D0 /* Front end */,
@@ -214,8 +221,11 @@
 			isa = PBXGroup;
 			children = (
 				22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */,
+				22DDC8A417102D1300CD41D0 /* KBBNetworkProtocol.h */,
 				22DDC891171025FC00CD41D0 /* PostcodeClient.h */,
 				22DDC892171025FC00CD41D0 /* PostcodeClient.m */,
+				22DDC8A517102E6500CD41D0 /* FSAClient.h */,
+				22DDC8A617102E6500CD41D0 /* FSAClient.m */,
 				22DDC8A017102B0100CD41D0 /* JsonParser.h */,
 				22DDC8A117102B0100CD41D0 /* JsonParser.m */,
 			);
@@ -228,6 +238,22 @@
 				22DDC8951710262500CD41D0 /* Config.h */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		22DDC8A81710362C00CD41D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8A91710363100CD41D0 /* JSON */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		22DDC8A91710363100CD41D0 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8AA1710363C00CD41D0 /* fsa.json */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +335,7 @@
 				22DDC8661710231F00CD41D0 /* Default@2x.png in Resources */,
 				22DDC8681710231F00CD41D0 /* Default-568h@2x.png in Resources */,
 				22DDC86E1710231F00CD41D0 /* KBBViewController.xib in Resources */,
+				22DDC8AB1710363C00CD41D0 /* fsa.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +403,7 @@
 				22DDC86B1710231F00CD41D0 /* KBBViewController.m in Sources */,
 				22DDC893171025FC00CD41D0 /* PostcodeClient.m in Sources */,
 				22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */,
+				22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,5 +7,8 @@
 //
 
 #define kPostcodeApiUrl @"http://uk-postcodes.com/latlng"
+#define kFSAApiUrl @"http://ratings.food.gov.uk/"
+
 #define kStubNetworkCalls NO
+#define kStubFSANetworkCalls YES
 

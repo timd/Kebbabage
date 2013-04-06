@@ -21,8 +21,6 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    [self testNetwork];
-    
     return YES;
 }
 
@@ -53,13 +51,5 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
--(void)testNetwork {
-    
-    // 53.374288 -1.538863
-    
-    PostcodeClient *postcoder = [[PostcodeClient alloc] initWithBaseURL:[NSURL URLWithString:kPostcodeApiUrl]];
-    [postcoder getPostcodeForLat:53.374288f andLong:-1.538863f];
-    
-}
 
 @end

@@ -1,0 +1,1365 @@
+{
+    "?xml": {
+        "@version": "1.0"
+    },
+    "FHRSEstablishment": {
+        "EstablishmentCollection": {
+            "EstablishmentDetail": [
+                                    {
+                                    "AddressLine1": "Rio Cinema Dalston",
+                                    "AddressLine2": "103-107 Kingsland High Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "\"Rio Cinema\"",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "468824",
+                                    "Geocode": {
+                                    "Latitude": "5.154953900000000e+001",
+                                    "Longitude": "-7.556800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "1317",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2PB",
+                                    "RatingDate": "2012-08-31",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "242 Dalston Lane",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "77 Social Club",
+                                    "BusinessType": "Pub/bar/nightclub",
+                                    "BusinessTypeID": "8",
+                                    "FHRSID": "468821",
+                                    "Geocode": {
+                                    "Latitude": "5.154938000000000e+001",
+                                    "Longitude": "-5.721400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "1306",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1JG",
+                                    "RatingDate": "2009-06-03",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "127 Richmond Road",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "A and D Local Market",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469005",
+                                    "Geocode": {
+                                    "Latitude": "5.154366900000000e+001",
+                                    "Longitude": "-5.875500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "156311",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3NJ",
+                                    "RatingDate": "2012-10-22",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "212 Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "A B Tropical Foods",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "468945",
+                                    "Geocode": {
+                                    "Latitude": "5.154824300000000e+001",
+                                    "Longitude": "-7.001200000000001e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "15196",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NH",
+                                    "RatingDate": "2012-11-29",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "600 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "A Class Ltd t/a Noodle Bar",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470145",
+                                    "Geocode": {
+                                    "Latitude": "5.154522200000000e+001",
+                                    "Longitude": "-7.554800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "33335",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AH",
+                                    "RatingDate": "2012-06-29",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "15",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "464 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "A Little of What you Fancy Ltd",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470383",
+                                    "Geocode": {
+                                    "Latitude": "5.154328500000000e+001",
+                                    "Longitude": "-7.587500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "35457",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AE",
+                                    "RatingDate": "2012-08-14",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "535-537 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "A1 Fish Supermarket Ltd",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470077",
+                                    "Geocode": {
+                                    "Latitude": "5.154559200000000e+001",
+                                    "Longitude": "-7.613800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "32719",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AR",
+                                    "RatingDate": "2011-10-31",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "5",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "47B Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Aarkay FL London Ltd",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469518",
+                                    "Geocode": {
+                                    "Latitude": "5.154835900000000e+001",
+                                    "Longitude": "-7.322400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "25534",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NP",
+                                    "RatingDate": "2011-11-08",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "private address",
+                                    "BusinessName": "Abuelita",
+                                    "BusinessType": "Mobile caterer",
+                                    "BusinessTypeID": "12",
+                                    "FHRSID": "469045",
+                                    "Geocode": null,
+                                    "LocalAuthorityBusinessID": "156762",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3",
+                                    "RatingDate": "2012-10-06",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "88 Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Adom Trading",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469765",
+                                    "Geocode": {
+                                    "Latitude": "5.154803500000000e+001",
+                                    "Longitude": "-7.267500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "29001",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NR",
+                                    "RatingDate": "2012-02-16",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "15",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "65-67 Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Adwoa Shop",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "468939",
+                                    "Geocode": {
+                                    "Latitude": "5.154835900000000e+001",
+                                    "Longitude": "-7.322400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "151132",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NP",
+                                    "RatingDate": "2013-02-28",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "33a Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "African Food Stuff",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470270",
+                                    "Geocode": {
+                                    "Latitude": "5.154835900000000e+001",
+                                    "Longitude": "-7.322400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "34568",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NP",
+                                    "RatingDate": "2011-11-16",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "40 Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "African Spices Limited",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470450",
+                                    "Geocode": {
+                                    "Latitude": "5.154803500000000e+001",
+                                    "Longitude": "-7.267500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "37625",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NR",
+                                    "RatingDate": "2012-05-31",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "2 Shacklewell Lane",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Akin Supermarket",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469382",
+                                    "Geocode": {
+                                    "Latitude": "5.155085900000000e+001",
+                                    "Longitude": "-7.272900000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "24130",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2EZ",
+                                    "RatingDate": "2011-01-20",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "103 Dalston Lane",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Akwaaba Supermarket",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470411",
+                                    "Geocode": {
+                                    "Latitude": "5.154839800000000e+001",
+                                    "Longitude": "-6.794300000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "35886",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1NH",
+                                    "RatingDate": "2012-01-17",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "144 Kingsland High Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Ali Baba Kabab House",
+                                    "BusinessType": "Takeaway/sandwich shop",
+                                    "BusinessTypeID": "10",
+                                    "FHRSID": "470011",
+                                    "Geocode": {
+                                    "Latitude": "5.154928700000000e+001",
+                                    "Longitude": "-7.498700000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "32249",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NS",
+                                    "RatingDate": "2011-12-20",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "91-93 Kingsland High Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Alibi",
+                                    "BusinessType": "Pub/bar/nightclub",
+                                    "BusinessTypeID": "8",
+                                    "FHRSID": "495874",
+                                    "Geocode": {
+                                    "Latitude": "5.154953900000000e+001",
+                                    "Longitude": "-7.556800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "38649",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2PB",
+                                    "RatingDate": "2011-05-24",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "All Saints Church Hall",
+                                    "AddressLine2": "Haggerston Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "All Saints Church Hall",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "516251",
+                                    "Geocode": {
+                                    "Latitude": "5.153861700000000e+001",
+                                    "Longitude": "-7.249600000000001e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "25745",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4HT",
+                                    "RatingDate": "2013-02-21",
+                                    "RatingKey": "fhrs_exempt_en-GB",
+                                    "RatingValue": "Exempt",
+                                    "SchemeType": "FHRS",
+                                    "Scores": null
+                                    },
+                                    {
+                                    "AddressLine2": "45A Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Alpha and Omega Variety Store",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470648",
+                                    "Geocode": {
+                                    "Latitude": "5.154835900000000e+001",
+                                    "Longitude": "-7.322400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "4121",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NP",
+                                    "RatingDate": "2012-06-18",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "25 Broadway Market",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Altun Organic Food",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470174",
+                                    "Geocode": {
+                                    "Latitude": "5.153680600000000e+001",
+                                    "Longitude": "-6.190200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "33562",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4PH",
+                                    "RatingDate": "2011-01-27",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "30 Amhurst Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Amhurst Cafe",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "469955",
+                                    "Geocode": {
+                                    "Latitude": "5.154813200000000e+001",
+                                    "Longitude": "-5.676200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "31811",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1JN",
+                                    "RatingDate": "2012-01-18",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "5",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "253 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Anatolia",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "469511",
+                                    "Geocode": {
+                                    "Latitude": "5.154279000000000e+001",
+                                    "Longitude": "-5.564800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "25438",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3NS",
+                                    "RatingDate": "2012-06-21",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "15",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "49 Kingsland High Street",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Anatolia Restaurant & Cafe",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "468964",
+                                    "Geocode": {
+                                    "Latitude": "5.154746600000000e+001",
+                                    "Longitude": "-7.582899999999999e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "155840",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2JS",
+                                    "RatingDate": "2012-08-08",
+                                    "RatingKey": "fhrs_4_en-GB",
+                                    "RatingValue": "4",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "411 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Anatolya Supermarket",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469334",
+                                    "Geocode": {
+                                    "Latitude": "5.154848700000000e+001",
+                                    "Longitude": "-5.536200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "23286",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1HY",
+                                    "RatingDate": "2009-08-26",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "5",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "528 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Andu Internet",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470058",
+                                    "Geocode": {
+                                    "Latitude": "5.154522200000000e+001",
+                                    "Longitude": "-7.554800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "32542",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AH",
+                                    "RatingDate": "2008-08-30",
+                                    "RatingKey": "fhrs_exempt_en-GB",
+                                    "RatingValue": "Exempt",
+                                    "SchemeType": "FHRS",
+                                    "Scores": null
+                                    },
+                                    {
+                                    "AddressLine1": "Ann Tayler Centre",
+                                    "AddressLine2": "1-13 Triangle Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Ann Tayler Children's Centre",
+                                    "BusinessType": "Hospitals/Childcare/Caring Premises",
+                                    "BusinessTypeID": "5",
+                                    "FHRSID": "469377",
+                                    "Geocode": {
+                                    "Latitude": "5.153802900000000e+001",
+                                    "Longitude": "-5.864900000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "24051",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3RP",
+                                    "RatingDate": "2012-10-12",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "0",
+                                    "Structural": "0"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "22-24 Ashwin Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Arcola Theatre",
+                                    "BusinessType": "Other catering premises",
+                                    "BusinessTypeID": "6",
+                                    "FHRSID": "470445",
+                                    "Geocode": {
+                                    "Latitude": "5.154697200000000e+001",
+                                    "Longitude": "-7.476800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "37571",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3DL",
+                                    "RatingDate": "2011-10-06",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "495 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Arthur's Cafe",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "469497",
+                                    "Geocode": {
+                                    "Latitude": "5.154354800000000e+001",
+                                    "Longitude": "-7.654200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "2529",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AU",
+                                    "RatingDate": "2013-02-17",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "285 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Artisserie",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "469874",
+                                    "Geocode": {
+                                    "Latitude": "5.154448800000000e+001",
+                                    "Longitude": "-5.611000000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "30455",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1GR",
+                                    "RatingDate": "2012-06-29",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "15",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "309 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Ash News",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470733",
+                                    "Geocode": {
+                                    "Latitude": "5.154612200000000e+001",
+                                    "Longitude": "-5.542000000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "764",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1EJ",
+                                    "RatingDate": "2010-12-15",
+                                    "RatingKey": "fhrs_exempt_en-GB",
+                                    "RatingValue": "Exempt",
+                                    "SchemeType": "FHRS",
+                                    "Scores": null
+                                    },
+                                    {
+                                    "AddressLine2": "82 Dalston Lane",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Avo Hotel",
+                                    "BusinessType": "Hotel/bed & breakfast/guest house",
+                                    "BusinessTypeID": "2",
+                                    "FHRSID": "470529",
+                                    "Geocode": {
+                                    "Latitude": "5.154604800000000e+001",
+                                    "Longitude": "-7.053800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "38932",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3AH",
+                                    "RatingDate": "2011-07-21",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "29a Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Back Home",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469288",
+                                    "Geocode": {
+                                    "Latitude": "5.154835900000000e+001",
+                                    "Longitude": "-7.322400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "22566",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NP",
+                                    "RatingDate": "2011-11-01",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "private address",
+                                    "BusinessName": "Bad Boys Chocolate Factory",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "468817",
+                                    "Geocode": null,
+                                    "LocalAuthorityBusinessID": "129739",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2",
+                                    "RatingDate": "2012-10-29",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "London Fields Primary School",
+                                    "AddressLine2": "Westgate Street",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Barbara's Brazilian Kitchen",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "468988",
+                                    "Geocode": {
+                                    "Latitude": "5.153757400000000e+001",
+                                    "Longitude": "-5.832200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "156201",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3RL",
+                                    "RatingDate": "2012-05-12",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "460 Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Base Pizza Hackney Limited",
+                                    "BusinessType": "Takeaway/sandwich shop",
+                                    "BusinessTypeID": "10",
+                                    "FHRSID": "470472",
+                                    "Geocode": {
+                                    "Latitude": "5.154328500000000e+001",
+                                    "Longitude": "-7.587500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "38168",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AE",
+                                    "RatingDate": "2012-05-28",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "The Bath House Childrens Community Centre",
+                                    "AddressLine2": "76 Shacklewell Lane",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Bath House Childrens Com.Centr",
+                                    "BusinessType": "Hospitals/Childcare/Caring Premises",
+                                    "BusinessTypeID": "5",
+                                    "FHRSID": "469344",
+                                    "Geocode": {
+                                    "Latitude": "5.155171600000000e+001",
+                                    "Longitude": "-7.175500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "23508",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2EY",
+                                    "RatingDate": "2012-04-25",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "303 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "BBQ Express Ltd",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470093",
+                                    "Geocode": {
+                                    "Latitude": "5.154612200000000e+001",
+                                    "Longitude": "-5.542000000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "32827",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1EJ",
+                                    "RatingDate": "2012-11-06",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "53-55 Broadway Market",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Bella Vita Limited",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470342",
+                                    "Geocode": {
+                                    "Latitude": "5.153680600000000e+001",
+                                    "Longitude": "-6.190200000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "35074",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4PH",
+                                    "RatingDate": "2012-07-17",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "0",
+                                    "Hygiene": "0",
+                                    "Structural": "0"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "109 Kingsland High Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Best Supermarket",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469207",
+                                    "Geocode": {
+                                    "Latitude": "5.154953900000000e+001",
+                                    "Longitude": "-7.556800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "20741",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2PB",
+                                    "RatingDate": "2012-01-03",
+                                    "RatingKey": "fhrs_2_en-GB",
+                                    "RatingValue": "2",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "15"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "13 Stean Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Better Health Bakery",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "495873",
+                                    "Geocode": {
+                                    "Latitude": "5.153811500000000e+001",
+                                    "Longitude": "-7.535799999999999e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "15925",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4ED",
+                                    "RatingDate": "2013-01-03",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "510b Kingsland Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Betty's Coffee Shop",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470593",
+                                    "Geocode": {
+                                    "Latitude": "5.154328500000000e+001",
+                                    "Longitude": "-7.587500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "39500",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 4AE",
+                                    "RatingDate": "2012-09-17",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "100 Ridley Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Boboto",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "470179",
+                                    "Geocode": {
+                                    "Latitude": "5.154803500000000e+001",
+                                    "Longitude": "-7.267500000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "33607",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2NR",
+                                    "RatingDate": "2012-12-07",
+                                    "RatingKey": "fhrs_0_en-GB",
+                                    "RatingValue": "0",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "30",
+                                    "Hygiene": "20",
+                                    "Structural": "25"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "90 Amhurst Road",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Bocca in Cielo",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "469742",
+                                    "Geocode": {
+                                    "Latitude": "5.154882900000000e+001",
+                                    "Longitude": "-5.814600000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "28755",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1JH",
+                                    "RatingDate": "2012-03-05",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "2 Bohemia Place",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Bohemia Cafe",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "470280",
+                                    "Geocode": {
+                                    "Latitude": "5.154723800000000e+001",
+                                    "Longitude": "-5.384300000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "34644",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1DU",
+                                    "RatingDate": "2012-10-23",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "Bohemia Restaurant",
+                                    "AddressLine2": "166 Bohemia Place",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Bohemia Cafe Ltd",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "521938",
+                                    "Geocode": {
+                                    "Latitude": "5.154653600000000e+001",
+                                    "Longitude": "-5.489700000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "156963",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1HA",
+                                    "RatingDate": "2012-10-23",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "87B Shacklewell Lane",
+                                    "AddressLine3": "Hackney",
+                                    "AddressLine4": "London",
+                                    "BusinessName": "Bombay Munch",
+                                    "BusinessType": "Takeaway/sandwich shop",
+                                    "BusinessTypeID": "10",
+                                    "FHRSID": "470393",
+                                    "Geocode": {
+                                    "Latitude": "5.155307300000000e+001",
+                                    "Longitude": "-7.009600000000001e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "35547",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 2EB",
+                                    "RatingDate": "2013-02-20",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "386-388 Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Boots The Chemist",
+                                    "BusinessType": "Retailers - other",
+                                    "BusinessTypeID": "3",
+                                    "FHRSID": "469142",
+                                    "Geocode": {
+                                    "Latitude": "5.154825300000000e+001",
+                                    "Longitude": "-5.483800000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "19251",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1HR",
+                                    "RatingDate": "2008-04-19",
+                                    "RatingKey": "fhrs_4_en-GB",
+                                    "RatingValue": "4",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "212a Mare Street",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Booze Mini Market",
+                                    "BusinessType": "Retailers - supermarkets/hypermarkets",
+                                    "BusinessTypeID": "4",
+                                    "FHRSID": "469359",
+                                    "Geocode": {
+                                    "Latitude": "5.154130300000000e+001",
+                                    "Longitude": "-5.493300000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "23779",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3RD",
+                                    "RatingDate": "2012-10-08",
+                                    "RatingKey": "fhrs_3_en-GB",
+                                    "RatingValue": "3",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "10",
+                                    "Hygiene": "10",
+                                    "Structural": "10"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine2": "67 Wilton Way",
+                                    "AddressLine3": "London",
+                                    "BusinessName": "Borough Wines",
+                                    "BusinessType": "Importers/Exporters",
+                                    "BusinessTypeID": "14",
+                                    "FHRSID": "470491",
+                                    "Geocode": {
+                                    "Latitude": "5.154571300000000e+001",
+                                    "Longitude": "-6.162400000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "38453",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 1BG",
+                                    "RatingDate": "2011-04-21",
+                                    "RatingKey": "fhrs_5_en-GB",
+                                    "RatingValue": "5",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "5",
+                                    "Hygiene": "5",
+                                    "Structural": "5"
+                                    }
+                                    },
+                                    {
+                                    "AddressLine1": "Basement And Ground Floor,",
+                                    "AddressLine2": "171 MARE STREET",
+                                    "AddressLine3": "HACKNEY",
+                                    "AddressLine4": "LONDON",
+                                    "BusinessName": "Bouchon Fourchette",
+                                    "BusinessType": "Restaurant/Cafe/Canteen",
+                                    "BusinessTypeID": "1",
+                                    "FHRSID": "516242",
+                                    "Geocode": {
+                                    "Latitude": "5.153954100000000e+001",
+                                    "Longitude": "-5.658000000000000e-002"
+                                    },
+                                    "LocalAuthorityBusinessID": "108090",
+                                    "LocalAuthorityCode": "512",
+                                    "LocalAuthorityEmailAddress": "technicalbusinesssupport@hackney.gov.uk",
+                                    "LocalAuthorityName": "Hackney",
+                                    "LocalAuthorityWebSite": "http://www.hackney.gov.uk/e-env-environmental-health.htm",
+                                    "PostCode": "E8 3RH",
+                                    "RatingDate": "2013-02-28",
+                                    "RatingKey": "fhrs_1_en-GB",
+                                    "RatingValue": "1",
+                                    "SchemeType": "FHRS",
+                                    "Scores": {
+                                    "ConfidenceInManagement": "20",
+                                    "Hygiene": "15",
+                                    "Structural": "15"
+                                    }
+                                    }
+                                    ]
+        },
+        "Header": {
+            "#text": "",
+            "ExtractDate": "2013-04-06",
+            "ItemCount": "457",
+            "PageCount": "10",
+            "PageNumber": "1",
+            "PageSize": "50",
+            "ReturnCode": "Success"
+        }
+    }
+}

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KBBNetworkProtocol.h"
 
-@interface KBBViewController : UIViewController
+@interface KBBViewController : UIViewController <KBBNetworkProtocol>
 
 @end

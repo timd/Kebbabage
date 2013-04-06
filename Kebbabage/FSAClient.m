@@ -1,25 +1,25 @@
 //
-//  PostcodeClient.m
+//  FSAClient.m
 //  Kebbabage
 //
 //  Created by Tim on 06/04/2013.
 //  Copyright (c) 2013 Charismatic Megafauna Ltd. All rights reserved.
 //
 
-#import "PostcodeClient.h"
+#import "FSAClient.h"
 #import "AFHTTPClient.h"
 #import "AFNetworking.h"
 #import "OHHTTPStubs.h"
 
-@implementation PostcodeClient
+@implementation FSAClient
 
-+ (PostcodeClient *)sharedClient {
++(FSAClient *)sharedClient {
     
-    static PostcodeClient *_sharedClient = nil;
+    static FSAClient *_sharedClient = nil;
     static dispatch_once_t onceToken;
     
     dispatch_once(&onceToken, ^{
-        _sharedClient = [[PostcodeClient alloc] initWithBaseURL:[NSURL URLWithString:kPostcodeApiUrl]];
+        _sharedClient = [[FSAClient alloc] initWithBaseURL:[NSURL URLWithString:kFSAApiUrl]];
     });
     
     return _sharedClient;
@@ -28,7 +28,7 @@
 
 -(void)stubNetworkCalls {
     [OHHTTPStubs addRequestHandler:^OHHTTPStubsResponse*(NSURLRequest *request, BOOL onlyCheck) {
-        return [OHHTTPStubsResponse responseWithFile:@"test.json" contentType:@"text/json" responseTime:0.5];
+        return [OHHTTPStubsResponse responseWithFile:@"fsa.json" contentType:@"text/json" responseTime:0.5];
     }];
 }
 
@@ -45,39 +45,43 @@
     [self setDefaultHeader:@"Content-Type" value:@"application/json"];
     [self setParameterEncoding:AFJSONParameterEncoding];
     
-    if (kStubNetworkCalls) {
+    if (kStubFSANetworkCalls) {
         [self stubNetworkCalls];
     }
     
     return self;
 }
 
--(void)getPostcodeForLat:(float)latitude andLong:(float)longitude {
-
-    // GET http://uk-postcodes.com/latlng/latitude,longitude.json
+-(void)getOutletsForPostcode:(NSString *)postcode {
     
-    NSString *queryString = [NSString stringWithFormat:@"/%f,%f.json", latitude, longitude];
-    NSString *urlString = [NSString stringWithFormat:@"%@%@", kPostcodeApiUrl, queryString];
-    NSURL *url = [NSURL URLWithString:urlString];
+    // GET http://ratings.food.gov.uk/search/^/<postcode>/1/999/json
+    
+//    NSString *encodedPostcode = [postcode stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionAllowLossy];
+
+    NSString *queryString = [NSString stringWithFormat:@"search/^/%@/1/999/json", postcode];
+    NSString *urlString = [NSString stringWithFormat:@"%@%@", kFSAApiUrl, queryString];
+    
+    NSString *encodedURLString = [urlString stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionAllowLossy];
+    
+    NSURL *url = [NSURL URLWithString:encodedURLString];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         // SUCCESS
         NSLog(@"Received %@", [JSON class]);
-        [self.delegate handlePostcode:@"s1 4jb"];
+        [self.delegate handleOutlets:JSON];
         
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         // FAILURE
-        NSLog(@"Error in PostCode: %@", error);
-        [self.delegate handlePostcodeError:error];
+        NSLog(@"Error in Outlets: %@", error);
+        [self.delegate handleOutletError:error];
     }];
     
     [operation setShouldExecuteAsBackgroundTaskWithExpirationHandler:nil];
     
     [operation start];
-    
+ 
 }
-
 
 @end

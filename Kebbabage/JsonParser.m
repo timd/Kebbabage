@@ -31,5 +31,12 @@
     return nil;
 }
 
+#pragma mark -
+#pragma mark Parsing methods
+
+-(NSString *)parsePostcodeFromJson:(NSData *)json {
+    return @"foo";
+}
+
 
 @end
