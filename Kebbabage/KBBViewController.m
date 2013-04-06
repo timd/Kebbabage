@@ -10,6 +10,7 @@
 #import "PostcodeClient.h"
 #import "FSAClient.h"
 #import "JsonParser.h"
+#import "KBBMapAnnotation.h"
 
 @interface KBBViewController ()
 @property (nonatomic, strong) PostcodeClient *postcodeClient;
@@ -42,6 +43,17 @@
     [self.locManager startUpdatingLocation];
     
     [self.mapView setShowsUserLocation:YES];
+    
+    // Plot test point
+    CLLocationCoordinate2D location;
+	location.latitude = (double) 51.501468;
+	location.longitude = (double) -0.141596;
+    
+	// Add the annotation to our map view
+    KBBOutlet *outlet = [[KBBOutlet alloc] init];
+	KBBMapAnnotation *newAnnotation = [[KBBMapAnnotation alloc] initWithOutlet:outlet andCoordinate:location];
+	[self.mapView addAnnotation:newAnnotation];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -118,11 +130,19 @@
 }
 
 -(void)plotOutlets:(NSArray *)outletsArray {
+    
+    NSMutableArray *annotationsArray = [[NSMutableArray alloc] init];
+    
     for (KBBOutlet *outlet in outletsArray) {
- 
-        NSLog(@"lat = %f", [outlet latitude]);
-        NSLog(@"lng = %f", [outlet longitude]);
+        CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake([outlet latitude], [outlet longitude]);
+        KBBMapAnnotation *annotation = [[KBBMapAnnotation alloc] initWithOutlet:outlet andCoordinate:coordinate];
+        [annotationsArray addObject:annotation];
     }
+    
+    for (KBBMapAnnotation *annotation in annotationsArray) {
+        [self.mapView addAnnotation:annotation];
+    }
+
 }
 
 
