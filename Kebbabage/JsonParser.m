@@ -60,9 +60,17 @@
         KBBOutlet *outlet = [[KBBOutlet alloc] init];
         
         NSString *businessName = [establishment valueForKey:@"BusinessName"];
-        NSLog(@"businessName = %@", businessName);
         [outlet setBusinessName:businessName];
-        
+
+        NSString *postcode = [establishment valueForKey:@"PostCode"];
+        [outlet setPostCode:postcode];
+
+        NSString *ratingDate = [establishment valueForKey:@"RatingDate"];
+        [outlet setRatingDate:ratingDate];
+
+        NSString *ratingValue = [establishment valueForKey:@"RatingValue"];
+        [outlet setRatingValue:[ratingValue intValue]];
+
         // Trap for <null> scores
         if ([[establishment objectForKey:@"Scores"] isKindOfClass:[NSDictionary class]]) {
         
@@ -73,7 +81,7 @@
                 int confidence = [[scoresDictionary objectForKey:@"ConfidenceInManagement"] intValue];
                 int hygiene = [[scoresDictionary objectForKey:@"Hygiene"] intValue];
                 int structural = [[scoresDictionary objectForKey:@"Structural"] intValue];
-                
+
                 [outlet setConfidenceValue:confidence];
                 [outlet setHygieneValue:hygiene];
                 [outlet setStructureValue:structural];

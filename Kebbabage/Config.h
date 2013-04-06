@@ -6,9 +6,10 @@
 //  Copyright (c) 2013 Charismatic Megafauna Ltd. All rights reserved.
 //
 
-#define kPostcodeApiUrl @"http://uk-postcodes.com/latlng"
-#define kFSAApiUrl @"http://ratings.food.gov.uk/"
+#define kPostcodeApiUrl @"http://uk-postcodes.com/"
+// #define kFSAApiUrl @"http://ratings.food.gov.uk/"
+#define kFSAApiUrl @"http://fsaapi.shaunmcdonald.me.uk"
 
-#define kStubNetworkCalls NO
-#define kStubFSANetworkCalls YES
+#define kStubPostcodeNetworkCalls NO
+#define kStubFSANetworkCalls NO
 

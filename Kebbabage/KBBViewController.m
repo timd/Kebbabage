@@ -50,6 +50,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark -
+#pragma mark Interaction methods
+
 - (IBAction)didTapGetPostcode:(id)sender {
     
     // 53.374288 -1.538863
@@ -59,6 +62,9 @@
 
 - (IBAction)didTapGetOutlets:(id)sender {
 }
+
+#pragma mark -
+#pragma mark Delegate callbacks
 
 -(void)handlePostcode:(NSString *)postcode {
     NSLog(@"postcode = %@", postcode);
@@ -77,6 +83,9 @@
     NSArray *outlets = [jsonParser parseOutletsFromJson:outletJson];
     
     NSLog(@"outlets = %@", outlets);
+    
+    [self.postcodeClient getLatLongForArrayOfObjects:outlets];
+    
 }
 
 -(void)handleOutletError:(NSError *)error {
@@ -108,8 +117,13 @@
     [mapView setCenterCoordinate:userLocation.location.coordinate animated:YES];
 }
 
-#pragma mark -
-#pragma mark MKMapView delegate methods
+-(void)plotOutlets:(NSArray *)outletsArray {
+    for (KBBOutlet *outlet in outletsArray) {
+ 
+        NSLog(@"lat = %f", [outlet latitude]);
+        NSLog(@"lng = %f", [outlet longitude]);
+    }
+}
 
 
 

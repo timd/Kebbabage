@@ -8,6 +8,7 @@
 
 #import "AFHTTPClient.h"
 #import "KBBNetworkProtocol.h"
+#import "KBBOutlet.h"
 
 @interface PostcodeClient : AFHTTPClient
 
@@ -16,5 +17,7 @@
 + (PostcodeClient *)sharedClient;
 - (id)initWithBaseURL:(NSURL *)url;
 -(void)getPostcodeForLat:(float)latitude andLong:(float)longitude;
+
+-(void)getLatLongForArrayOfObjects:(NSArray *)outletsArray;
 
 @end

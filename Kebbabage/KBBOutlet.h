@@ -13,9 +13,14 @@
 @property (nonatomic, strong) NSString *businessName;
 @property (nonatomic, strong) NSString *businessType;
 @property (nonatomic, strong) NSString *ratingDate;
+@property (nonatomic, strong) NSString *postCode;
+
 @property (nonatomic) int ratingValue;
 @property (nonatomic) int confidenceValue;
 @property (nonatomic) int hygieneValue;
 @property (nonatomic) int structureValue;
+
+@property (nonatomic) float latitude;
+@property (nonatomic) float longitude;
 
 @end
