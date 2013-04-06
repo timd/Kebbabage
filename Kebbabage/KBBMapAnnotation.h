@@ -13,6 +13,8 @@
 
 @interface KBBMapAnnotation : NSObject <MKAnnotation>
 
+@property (nonatomic, strong) KBBOutlet *outlet;
+
 -(id)initWithOutlet:(KBBOutlet *)outlet andCoordinate:(CLLocationCoordinate2D)coordinate;
 
 @end

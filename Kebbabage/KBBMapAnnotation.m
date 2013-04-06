@@ -11,7 +11,6 @@
 
 @interface KBBMapAnnotation()
 
-@property (nonatomic, strong) KBBOutlet *outlet;
 @property (nonatomic) CLLocationCoordinate2D coordinate;
 
 @end

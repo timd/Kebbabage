@@ -11,6 +11,8 @@
 #import "FSAClient.h"
 #import "JsonParser.h"
 #import "KBBMapAnnotation.h"
+#import "MBProgressHUD.h"
+#import "PopoverView.h"
 
 @interface KBBViewController ()
 @property (nonatomic, strong) PostcodeClient *postcodeClient;
@@ -20,6 +22,7 @@
 @property (nonatomic, strong) CLLocationManager *locManager;
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
+@property (nonatomic) BOOL isLocating;
 
 @end
 
@@ -40,20 +43,8 @@
     [self.locManager setDelegate:self];
     [self.locManager setDesiredAccuracy:kCLLocationAccuracyBest];
     
-    [self.locManager startUpdatingLocation];
-    
     [self.mapView setShowsUserLocation:YES];
-    
-    // Plot test point
-    CLLocationCoordinate2D location;
-	location.latitude = (double) 51.501468;
-	location.longitude = (double) -0.141596;
-    
-	// Add the annotation to our map view
-    KBBOutlet *outlet = [[KBBOutlet alloc] init];
-	KBBMapAnnotation *newAnnotation = [[KBBMapAnnotation alloc] initWithOutlet:outlet andCoordinate:location];
-	[self.mapView addAnnotation:newAnnotation];
-    
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -67,8 +58,36 @@
 
 - (IBAction)didTapGetPostcode:(id)sender {
     
+    NSArray *annotations = [self.mapView annotations];
+    for (id annotation in annotations) {
+        
+        if (![annotation isKindOfClass:[MKUserLocation class]]) {
+            KBBMapAnnotation *kbbAnnotation = (KBBMapAnnotation *)annotation;
+            [self.mapView removeAnnotation:kbbAnnotation];
+        }
+        
+    }
+    
     // 53.374288 -1.538863
-    [self.postcodeClient getPostcodeForLat:53.374288 andLong:-1.538863];
+    
+    CLLocation *currentLocation = [self.locManager location];
+    CLLocationCoordinate2D currentCoordinates = currentLocation.coordinate;
+    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    
+    //[self.postcodeClient getPostcodeForLat:53.374288 andLong:-1.538863];
+    [self.postcodeClient getPostcodeForLat:currentCoordinates.latitude andLong:currentCoordinates.longitude];
+    
+}
+- (IBAction)didTapLocateMe:(id)sender {
+    
+    if (self.isLocating == YES) {
+        self.isLocating = NO;
+        [self.locManager stopUpdatingLocation];
+    } else {
+        self.isLocating = YES;
+        [self.locManager startUpdatingLocation];
+    }
     
 }
 
@@ -88,16 +107,9 @@
 }
 
 -(void)handleOutlets:(NSDictionary *)outletJson {
-    NSLog(@"outletJson = %@", outletJson);
-    
     JsonParser *jsonParser = [JsonParser sharedClient];
-    
     NSArray *outlets = [jsonParser parseOutletsFromJson:outletJson];
-    
-    NSLog(@"outlets = %@", outlets);
-    
     [self.postcodeClient getLatLongForArrayOfObjects:outlets];
-    
 }
 
 -(void)handleOutletError:(NSError *)error {
@@ -142,7 +154,95 @@
     for (KBBMapAnnotation *annotation in annotationsArray) {
         [self.mapView addAnnotation:annotation];
     }
+    
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
 
+}
+
+#pragma mark -
+#pragma mark MKMapView delegate methods
+
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id)annotation {
+    
+    static NSString *parkingAnnotationIdentifier=@"OutletAnnotationIdentifier";
+    
+    if ([annotation isKindOfClass:[KBBMapAnnotation class]]){
+
+        //Try to get an unused annotation, similar to uitableviewcells
+        MKAnnotationView *annotationView=[mapView dequeueReusableAnnotationViewWithIdentifier:parkingAnnotationIdentifier];
+        
+        //If one isn’t available, create a new one
+        if(!annotationView){
+        
+            annotationView=[[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:parkingAnnotationIdentifier];
+            //Here’s where the magic happens
+            annotationView.image=[UIImage imageNamed:@"kebab_pin"];
+            
+        }
+        
+        return annotationView;
+    }
+    
+    return nil;
+    
+}
+
+- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+
+    for (MKAnnotationView *aV in views) {
+        
+        // Don't pin drop if annotation is user location
+        if ([aV.annotation isKindOfClass:[MKUserLocation class]]) {
+            continue;
+        }
+        
+        // Check if current annotation is inside visible map rect, else go to next one
+        MKMapPoint point =  MKMapPointForCoordinate(aV.annotation.coordinate);
+        if (!MKMapRectContainsPoint(self.mapView.visibleMapRect, point)) {
+            continue;
+        }
+        
+        CGRect endFrame = aV.frame;
+        
+        // Move annotation out of view
+        aV.frame = CGRectMake(aV.frame.origin.x, aV.frame.origin.y - self.view.frame.size.height, aV.frame.size.width, aV.frame.size.height);
+        
+        // Animate drop
+        [UIView animateWithDuration:0.5 delay:0.04*[views indexOfObject:aV] options: UIViewAnimationOptionCurveLinear animations:^{
+            
+            aV.frame = endFrame;
+            // Animate squash
+            
+        } completion:^(BOOL finished){
+            if (finished) {
+                [UIView animateWithDuration:0.05 animations:^{
+                    
+                    aV.transform = CGAffineTransformMakeScale(1.0, 0.5);
+                    
+                }completion:^(BOOL finished){
+                    if (finished) {
+                        [UIView animateWithDuration:0.2 animations:^{
+                            aV.transform = CGAffineTransformIdentity;
+                        }];
+                    }
+                }];
+            }
+        }];
+    }
+}
+
+
+- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
+    
+    KBBMapAnnotation *annotation = view.annotation;
+    
+    CGPoint point = [self.mapView convertCoordinate:annotation.coordinate toPointToView:self.view];
+    
+    KBBOutlet *outlet = annotation.outlet;
+    NSString *outletName = outlet.businessName;
+    
+    [PopoverView showPopoverAtPoint:point inView:self.view withText:outletName delegate:nil];
+    
 }
 
 

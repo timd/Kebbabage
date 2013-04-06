@@ -71,7 +71,16 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         // SUCCESS
         NSLog(@"Received %@", [JSON class]);
-        [self.delegate handlePostcode:@"e8"];
+        
+        NSString *longPostcode = [JSON objectForKey:@"postcode"];
+        
+        NSArray *postcodeComponents = [longPostcode componentsSeparatedByString:@" "];
+        
+        NSString *postcode = [postcodeComponents objectAtIndex:0];
+        
+        NSLog(@"postcode = %@", postcode);
+        
+        [self.delegate handlePostcode:postcode];
         
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         // FAILURE
