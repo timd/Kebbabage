@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>Pods-Kebbabge.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,12 +22,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2731DB7765F641B9BD18307E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2B5C9B4E58094A5885DB3C2C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>40BC071042494D8F8BD54FAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C2F51AB084E47A5A070A2D4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A65D42E711044FC8496BF4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>AEF93E7B9CA34BC59C49EA40</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E5B89CEAA7194B2EBF26026E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6B18922C6DB43B79A78225D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

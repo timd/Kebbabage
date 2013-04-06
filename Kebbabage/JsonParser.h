@@ -14,4 +14,6 @@
 +(JsonParser *)sharedClient;
 -(NSString *)parsePostcodeFromJson:(NSData *)json;
 
+-(NSArray *)parseOutletsFromJson:(NSDictionary *)jsonDictionary;
+
 @end

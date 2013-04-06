@@ -46,7 +46,7 @@
     [self setParameterEncoding:AFJSONParameterEncoding];
     
     if (kStubFSANetworkCalls) {
-        [self stubNetworkCalls];
+        //[self stubNetworkCalls];
     }
     
     return self;
@@ -56,7 +56,7 @@
     
     // GET http://ratings.food.gov.uk/search/^/<postcode>/1/999/json
     
-    NSString *queryString = [NSString stringWithFormat:@"search/^/%@/1/999/json", postcode];
+    NSString *queryString = [NSString stringWithFormat:@"/search/^/%@/1/50/json", postcode];
     NSString *urlString = [NSString stringWithFormat:@"%@%@", kFSAApiUrl, queryString];
     
     NSString *encodedURLString = [urlString stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionAllowLossy];

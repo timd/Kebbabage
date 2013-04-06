@@ -16,4 +16,6 @@
 -(void)handleOutlets:(NSDictionary *)outletJson;
 -(void)handleOutletError:(NSError *)error;
 
+-(void)plotOutlets:(NSArray *)outletsArray;
+
 @end

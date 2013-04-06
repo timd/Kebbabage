@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B8A35117103D4500816CA3 /* KBBOutlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8A35017103D4500816CA3 /* KBBOutlet.m */; };
+		22B8A3551710551100816CA3 /* KBBMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8A3541710551100816CA3 /* KBBMapAnnotation.m */; };
+		22B8A357171056F300816CA3 /* dalston.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A356171056F300816CA3 /* dalston.gpx */; };
+		22B8A35B17105DF100816CA3 /* kebab_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A35917105DF100816CA3 /* kebab_pin.png */; };
+		22B8A35C17105DF100816CA3 /* kebab_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A35A17105DF100816CA3 /* kebab_pin@2x.png */; };
+		22B8A36017106B1600816CA3 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A35E17106B1600816CA3 /* location.png */; };
+		22B8A36117106B1600816CA3 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A35F17106B1600816CA3 /* location@2x.png */; };
+		22B8A36417106B7600816CA3 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A36217106B7600816CA3 /* fork.png */; };
+		22B8A36517106B7600816CA3 /* fork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A36317106B7600816CA3 /* fork@2x.png */; };
+		22B8A36A17106D7900816CA3 /* KBBMapPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8A36817106D7900816CA3 /* KBBMapPopupViewController.m */; };
+		22B8A36B17106D7900816CA3 /* KBBMapPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22B8A36917106D7900816CA3 /* KBBMapPopupView.xib */; };
 		22DDC8521710231F00CD41D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8511710231F00CD41D0 /* UIKit.framework */; };
 		22DDC8541710231F00CD41D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8531710231F00CD41D0 /* Foundation.framework */; };
 		22DDC8561710231F00CD41D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8551710231F00CD41D0 /* CoreGraphics.framework */; };
@@ -30,6 +41,7 @@
 		22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A117102B0100CD41D0 /* JsonParser.m */; };
 		22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A617102E6500CD41D0 /* FSAClient.m */; };
 		22DDC8AB1710363C00CD41D0 /* fsa.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DDC8AA1710363C00CD41D0 /* fsa.json */; };
+		22DDC8AD171038E600CD41D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8AC171038E500CD41D0 /* CoreLocation.framework */; };
 		52DD6369665046DFB7E4437F /* libPods-KebbabageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */; };
 		D022B13364114B39B407E11E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B465375294EC0911FD204 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -45,6 +57,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B8A34F17103D4500816CA3 /* KBBOutlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBOutlet.h; sourceTree = "<group>"; };
+		22B8A35017103D4500816CA3 /* KBBOutlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBOutlet.m; sourceTree = "<group>"; };
+		22B8A3531710551100816CA3 /* KBBMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBMapAnnotation.h; sourceTree = "<group>"; };
+		22B8A3541710551100816CA3 /* KBBMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBMapAnnotation.m; sourceTree = "<group>"; };
+		22B8A356171056F300816CA3 /* dalston.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dalston.gpx; sourceTree = SOURCE_ROOT; };
+		22B8A35917105DF100816CA3 /* kebab_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kebab_pin.png; path = assets/pins/kebab_pin.png; sourceTree = SOURCE_ROOT; };
+		22B8A35A17105DF100816CA3 /* kebab_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kebab_pin@2x.png"; path = "assets/pins/kebab_pin@2x.png"; sourceTree = SOURCE_ROOT; };
+		22B8A35E17106B1600816CA3 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = assets/icons/location.png; sourceTree = SOURCE_ROOT; };
+		22B8A35F17106B1600816CA3 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "assets/icons/location@2x.png"; sourceTree = SOURCE_ROOT; };
+		22B8A36217106B7600816CA3 /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fork.png; path = assets/icons/fork.png; sourceTree = SOURCE_ROOT; };
+		22B8A36317106B7600816CA3 /* fork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fork@2x.png"; path = "assets/icons/fork@2x.png"; sourceTree = SOURCE_ROOT; };
+		22B8A36717106D7900816CA3 /* KBBMapPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBMapPopupViewController.h; sourceTree = "<group>"; };
+		22B8A36817106D7900816CA3 /* KBBMapPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBMapPopupViewController.m; sourceTree = "<group>"; };
+		22B8A36917106D7900816CA3 /* KBBMapPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBBMapPopupView.xib; sourceTree = "<group>"; };
 		22DDC84E1710231F00CD41D0 /* Kebbabage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kebbabage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DDC8511710231F00CD41D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22DDC8531710231F00CD41D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -80,6 +106,7 @@
 		22DDC8A517102E6500CD41D0 /* FSAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAClient.h; sourceTree = "<group>"; };
 		22DDC8A617102E6500CD41D0 /* FSAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAClient.m; sourceTree = "<group>"; };
 		22DDC8AA1710363C00CD41D0 /* fsa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fsa.json; sourceTree = "<group>"; };
+		22DDC8AC171038E500CD41D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KebbabageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B465375294EC0911FD204 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebbabageTests.xcconfig"; path = "Pods/Pods-KebbabageTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -91,9 +118,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DDC8AD171038E600CD41D0 /* CoreLocation.framework in Frameworks */,
+				22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */,
 				22DDC89B1710270900CD41D0 /* MobileCoreServices.framework in Frameworks */,
 				22DDC899171026EC00CD41D0 /* SystemConfiguration.framework in Frameworks */,
-				22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */,
 				22DDC8521710231F00CD41D0 /* UIKit.framework in Frameworks */,
 				22DDC8541710231F00CD41D0 /* Foundation.framework in Frameworks */,
 				22DDC8561710231F00CD41D0 /* CoreGraphics.framework in Frameworks */,
@@ -115,6 +143,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B8A34E17103CD500816CA3 /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A34F17103D4500816CA3 /* KBBOutlet.h */,
+				22B8A35017103D4500816CA3 /* KBBOutlet.m */,
+			);
+			name = Outlets;
+			sourceTree = "<group>";
+		};
+		22B8A352171054F500816CA3 /* Map annotations */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A3531710551100816CA3 /* KBBMapAnnotation.h */,
+				22B8A3541710551100816CA3 /* KBBMapAnnotation.m */,
+			);
+			name = "Map annotations";
+			sourceTree = "<group>";
+		};
+		22B8A35817105DE800816CA3 /* pins */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A35917105DF100816CA3 /* kebab_pin.png */,
+				22B8A35A17105DF100816CA3 /* kebab_pin@2x.png */,
+			);
+			name = pins;
+			sourceTree = "<group>";
+		};
+		22B8A35D17106B0C00816CA3 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A36217106B7600816CA3 /* fork.png */,
+				22B8A36317106B7600816CA3 /* fork@2x.png */,
+				22B8A35E17106B1600816CA3 /* location.png */,
+				22B8A35F17106B1600816CA3 /* location@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		22B8A36617106D5F00816CA3 /* Map popups */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A36717106D7900816CA3 /* KBBMapPopupViewController.h */,
+				22B8A36817106D7900816CA3 /* KBBMapPopupViewController.m */,
+				22B8A36917106D7900816CA3 /* KBBMapPopupView.xib */,
+			);
+			name = "Map popups";
+			sourceTree = "<group>";
+		};
 		22DDC8451710231F00CD41D0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +215,7 @@
 		22DDC8501710231F00CD41D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22DDC8AC171038E500CD41D0 /* CoreLocation.framework */,
 				22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */,
 				22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */,
 				22DDC88E1710250E00CD41D0 /* MapKit.framework */,
@@ -210,6 +287,8 @@
 		22DDC88D171024AB00CD41D0 /* Front end */ = {
 			isa = PBXGroup;
 			children = (
+				22B8A36617106D5F00816CA3 /* Map popups */,
+				22B8A352171054F500816CA3 /* Map annotations */,
 				22DDC8691710231F00CD41D0 /* KBBViewController.h */,
 				22DDC86A1710231F00CD41D0 /* KBBViewController.m */,
 				22DDC86C1710231F00CD41D0 /* KBBViewController.xib */,
@@ -220,6 +299,7 @@
 		22DDC8901710259F00CD41D0 /* Back end */ = {
 			isa = PBXGroup;
 			children = (
+				22B8A34E17103CD500816CA3 /* Outlets */,
 				22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */,
 				22DDC8A417102D1300CD41D0 /* KBBNetworkProtocol.h */,
 				22DDC891171025FC00CD41D0 /* PostcodeClient.h */,
@@ -243,6 +323,9 @@
 		22DDC8A81710362C00CD41D0 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				22B8A35D17106B0C00816CA3 /* icons */,
+				22B8A35817105DE800816CA3 /* pins */,
+				22B8A356171056F300816CA3 /* dalston.gpx */,
 				22DDC8A91710363100CD41D0 /* JSON */,
 			);
 			name = Assets;
@@ -336,6 +419,14 @@
 				22DDC8681710231F00CD41D0 /* Default-568h@2x.png in Resources */,
 				22DDC86E1710231F00CD41D0 /* KBBViewController.xib in Resources */,
 				22DDC8AB1710363C00CD41D0 /* fsa.json in Resources */,
+				22B8A357171056F300816CA3 /* dalston.gpx in Resources */,
+				22B8A35B17105DF100816CA3 /* kebab_pin.png in Resources */,
+				22B8A35C17105DF100816CA3 /* kebab_pin@2x.png in Resources */,
+				22B8A36017106B1600816CA3 /* location.png in Resources */,
+				22B8A36117106B1600816CA3 /* location@2x.png in Resources */,
+				22B8A36417106B7600816CA3 /* fork.png in Resources */,
+				22B8A36517106B7600816CA3 /* fork@2x.png in Resources */,
+				22B8A36B17106D7900816CA3 /* KBBMapPopupView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +495,9 @@
 				22DDC893171025FC00CD41D0 /* PostcodeClient.m in Sources */,
 				22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */,
 				22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */,
+				22B8A35117103D4500816CA3 /* KBBOutlet.m in Sources */,
+				22B8A3551710551100816CA3 /* KBBMapAnnotation.m in Sources */,
+				22B8A36A17106D7900816CA3 /* KBBMapPopupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

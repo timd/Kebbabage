@@ -7,6 +7,7 @@
 //
 
 #import "JsonParser.h"
+#import "KBBOutlet.h"
 
 @implementation JsonParser
 
@@ -37,6 +38,68 @@
 -(NSString *)parsePostcodeFromJson:(NSData *)json {
     return @"foo";
 }
+
+-(NSArray *)parseOutletsFromJson:(NSDictionary *)jsonDictionary {
+    
+    if (!jsonDictionary) {
+        return nil;
+    }
+    
+
+    
+    NSDictionary *fhrsEstablishmentDictionary = [jsonDictionary valueForKey:@"FHRSEstablishment"];
+    
+    NSDictionary *establishmentCollectionDictionary = [fhrsEstablishmentDictionary valueForKey:@"EstablishmentCollection"];
+    
+    NSArray *establishmentDetailArray = [establishmentCollectionDictionary valueForKey:@"EstablishmentDetail"];
+
+    NSMutableArray *establishmentsArray = [[NSMutableArray alloc] initWithCapacity:[establishmentDetailArray count]];
+    
+    for (NSDictionary *establishment in establishmentDetailArray) {
+
+        KBBOutlet *outlet = [[KBBOutlet alloc] init];
+        
+        NSString *businessName = [establishment valueForKey:@"BusinessName"];
+        [outlet setBusinessName:businessName];
+
+        NSString *postcode = [establishment valueForKey:@"PostCode"];
+        [outlet setPostCode:postcode];
+
+        NSString *address = [establishment valueForKey:@"AddressLine2"];
+        [outlet setAddressLine2:address];
+
+        NSString *ratingDate = [establishment valueForKey:@"RatingDate"];
+        [outlet setRatingDate:ratingDate];
+
+        NSString *ratingValue = [establishment valueForKey:@"RatingValue"];
+        [outlet setRatingValue:[ratingValue intValue]];
+
+        // Trap for <null> scores
+        if ([[establishment objectForKey:@"Scores"] isKindOfClass:[NSDictionary class]]) {
+        
+            NSDictionary *scoresDictionary = [establishment objectForKey:@"Scores"];
+            
+            if (scoresDictionary) {
+            
+                int confidence = [[scoresDictionary objectForKey:@"ConfidenceInManagement"] intValue];
+                int hygiene = [[scoresDictionary objectForKey:@"Hygiene"] intValue];
+                int structural = [[scoresDictionary objectForKey:@"Structural"] intValue];
+
+                [outlet setConfidenceValue:confidence];
+                [outlet setHygieneValue:hygiene];
+                [outlet setStructureValue:structural];
+                
+                [establishmentsArray addObject:outlet];
+                
+            }
+        }
+        
+    }
+    
+    return establishmentsArray;
+}
+
+
 
 
 @end
