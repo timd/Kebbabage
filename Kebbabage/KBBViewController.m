@@ -243,10 +243,6 @@
     NSString *address = outlet.addressLine2;
     NSString *hScore = [NSString stringWithFormat:@"Hygiene: %d", outlet.hygieneValue];
     
-    //[PopoverView showPopoverAtPoint:point inView:self.view withText:outletName delegate:nil];
-    
-    
-    
     [PopoverView showPopoverAtPoint:point inView:self.view withStringArray:@[outletName, address, hScore] delegate:nil];
     
 }
