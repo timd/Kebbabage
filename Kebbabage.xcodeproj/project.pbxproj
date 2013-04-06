@@ -30,6 +30,7 @@
 		22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A117102B0100CD41D0 /* JsonParser.m */; };
 		22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A617102E6500CD41D0 /* FSAClient.m */; };
 		22DDC8AB1710363C00CD41D0 /* fsa.json in Resources */ = {isa = PBXBuildFile; fileRef = 22DDC8AA1710363C00CD41D0 /* fsa.json */; };
+		22DDC8AD171038E600CD41D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8AC171038E500CD41D0 /* CoreLocation.framework */; };
 		52DD6369665046DFB7E4437F /* libPods-KebbabageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */; };
 		D022B13364114B39B407E11E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B465375294EC0911FD204 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,7 @@
 		22DDC8A517102E6500CD41D0 /* FSAClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAClient.h; sourceTree = "<group>"; };
 		22DDC8A617102E6500CD41D0 /* FSAClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAClient.m; sourceTree = "<group>"; };
 		22DDC8AA1710363C00CD41D0 /* fsa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fsa.json; sourceTree = "<group>"; };
+		22DDC8AC171038E500CD41D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KebbabageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387B465375294EC0911FD204 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebbabageTests.xcconfig"; path = "Pods/Pods-KebbabageTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -91,9 +93,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DDC8AD171038E600CD41D0 /* CoreLocation.framework in Frameworks */,
+				22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */,
 				22DDC89B1710270900CD41D0 /* MobileCoreServices.framework in Frameworks */,
 				22DDC899171026EC00CD41D0 /* SystemConfiguration.framework in Frameworks */,
-				22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */,
 				22DDC8521710231F00CD41D0 /* UIKit.framework in Frameworks */,
 				22DDC8541710231F00CD41D0 /* Foundation.framework in Frameworks */,
 				22DDC8561710231F00CD41D0 /* CoreGraphics.framework in Frameworks */,
@@ -139,6 +142,7 @@
 		22DDC8501710231F00CD41D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22DDC8AC171038E500CD41D0 /* CoreLocation.framework */,
 				22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */,
 				22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */,
 				22DDC88E1710250E00CD41D0 /* MapKit.framework */,

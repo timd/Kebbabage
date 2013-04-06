@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "KBBNetworkProtocol.h"
 
-@interface KBBViewController : UIViewController <KBBNetworkProtocol>
+@interface KBBViewController : UIViewController <KBBNetworkProtocol, CLLocationManagerDelegate>
 
 @end
