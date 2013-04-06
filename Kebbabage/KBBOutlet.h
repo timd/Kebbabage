@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSString *businessName;
 @property (nonatomic, strong) NSString *businessType;
+@property (nonatomic, strong) NSString *addressLine2;
 @property (nonatomic, strong) NSString *ratingDate;
 @property (nonatomic, strong) NSString *postCode;
 

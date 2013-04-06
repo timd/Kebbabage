@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Kebbabage/JsonParser.m"
-         timestampString = "386944316.110754"
+         timestampString = "386954517.400095"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "80"
-         endingLineNumber = "80"
+         startingLineNumber = "83"
+         endingLineNumber = "83"
          landmarkName = "-parseOutletsFromJson:"
          landmarkType = "5">
       </FileBreakpoint>

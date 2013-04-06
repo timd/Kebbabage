@@ -65,6 +65,9 @@
         NSString *postcode = [establishment valueForKey:@"PostCode"];
         [outlet setPostCode:postcode];
 
+        NSString *address = [establishment valueForKey:@"AddressLine2"];
+        [outlet setAddressLine2:address];
+
         NSString *ratingDate = [establishment valueForKey:@"RatingDate"];
         [outlet setRatingDate:ratingDate];
 
