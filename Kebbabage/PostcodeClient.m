@@ -65,7 +65,7 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         // SUCCESS
         NSLog(@"Received %@", [JSON class]);
-        [self.delegate handlePostcode:@"s1 4jb"];
+        [self.delegate handlePostcode:@"e8"];
         
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         // FAILURE

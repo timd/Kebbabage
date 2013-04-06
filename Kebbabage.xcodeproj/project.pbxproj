@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B8A35117103D4500816CA3 /* KBBOutlet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B8A35017103D4500816CA3 /* KBBOutlet.m */; };
 		22DDC8521710231F00CD41D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8511710231F00CD41D0 /* UIKit.framework */; };
 		22DDC8541710231F00CD41D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8531710231F00CD41D0 /* Foundation.framework */; };
 		22DDC8561710231F00CD41D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8551710231F00CD41D0 /* CoreGraphics.framework */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B8A34F17103D4500816CA3 /* KBBOutlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBOutlet.h; sourceTree = "<group>"; };
+		22B8A35017103D4500816CA3 /* KBBOutlet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBOutlet.m; sourceTree = "<group>"; };
 		22DDC84E1710231F00CD41D0 /* Kebbabage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kebbabage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22DDC8511710231F00CD41D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22DDC8531710231F00CD41D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B8A34E17103CD500816CA3 /* Outlets */ = {
+			isa = PBXGroup;
+			children = (
+				22B8A34F17103D4500816CA3 /* KBBOutlet.h */,
+				22B8A35017103D4500816CA3 /* KBBOutlet.m */,
+			);
+			name = Outlets;
+			sourceTree = "<group>";
+		};
 		22DDC8451710231F00CD41D0 = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +236,7 @@
 		22DDC8901710259F00CD41D0 /* Back end */ = {
 			isa = PBXGroup;
 			children = (
+				22B8A34E17103CD500816CA3 /* Outlets */,
 				22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */,
 				22DDC8A417102D1300CD41D0 /* KBBNetworkProtocol.h */,
 				22DDC891171025FC00CD41D0 /* PostcodeClient.h */,
@@ -408,6 +421,7 @@
 				22DDC893171025FC00CD41D0 /* PostcodeClient.m in Sources */,
 				22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */,
 				22DDC8A717102E6500CD41D0 /* FSAClient.m in Sources */,
+				22B8A35117103D4500816CA3 /* KBBOutlet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

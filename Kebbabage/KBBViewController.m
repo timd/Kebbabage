@@ -71,6 +71,12 @@
 
 -(void)handleOutlets:(NSDictionary *)outletJson {
     NSLog(@"outletJson = %@", outletJson);
+    
+    JsonParser *jsonParser = [JsonParser sharedClient];
+    
+    NSArray *outlets = [jsonParser parseOutletsFromJson:outletJson];
+    
+    NSLog(@"outlets = %@", outlets);
 }
 
 -(void)handleOutletError:(NSError *)error {
@@ -83,8 +89,6 @@
 - (void)locationManager:(CLLocationManager *)manager
     didUpdateToLocation:(CLLocation *)newLocation
            fromLocation:(CLLocation *)oldLocation {
-    NSLog(@"New latitude: %f", newLocation.coordinate.latitude);
-    NSLog(@"New longitude: %f", newLocation.coordinate.longitude);
     
     MKCoordinateRegion region;
     MKCoordinateSpan span;
