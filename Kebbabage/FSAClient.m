@@ -56,8 +56,6 @@
     
     // GET http://ratings.food.gov.uk/search/^/<postcode>/1/999/json
     
-//    NSString *encodedPostcode = [postcode stringByAddingPercentEscapesUsingEncoding:NSStringEncodingConversionAllowLossy];
-
     NSString *queryString = [NSString stringWithFormat:@"search/^/%@/1/999/json", postcode];
     NSString *urlString = [NSString stringWithFormat:@"%@%@", kFSAApiUrl, queryString];
     
