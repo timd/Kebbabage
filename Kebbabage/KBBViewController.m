@@ -7,9 +7,13 @@
 //
 
 #import "KBBViewController.h"
+#import "PostcodeClient.h"
+#import "JsonParser.h"
+
 
 @interface KBBViewController ()
-
+@property (nonatomic, strong) PostcodeClient *postcodeClient;
+@property (nonatomic, strong) JsonParser *jsonParser;
 @end
 
 @implementation KBBViewController
@@ -18,12 +22,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    self.postcodeClient = [[PostcodeClient alloc] initWithBaseURL:[NSURL URLWithString:kPostcodeApiUrl]];
+    self.jsonParser = [JsonParser sharedClient];
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)didTapGetPostcode:(id)sender {
+    
+    
+    
+}
+
+- (IBAction)didTapGetOutlets:(id)sender {
 }
 
 @end

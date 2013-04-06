@@ -1,0 +1,20 @@
+
+PODS:
+- AFNetworking (1.2.0)
+- Kiwi (2.0.6)
+- MBProgressHUD (0.6)
+- OHHTTPStubs (1.1.1)
+
+DEPENDENCIES:
+- AFNetworking
+- Kiwi
+- MBProgressHUD
+- OHHTTPStubs
+
+SPEC CHECKSUMS:
+  AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
+  MBProgressHUD: 9b55a90566fb5d07df0602f6fd9fa04510ad5d52
+  OHHTTPStubs: cb1cef742f2fba18b192fb92ede52a69cf3a04d5
+  Kiwi: 56082a80f942de4d10423d8d8a599ab30cf50228
+
+COCOAPODS: 0.16.1

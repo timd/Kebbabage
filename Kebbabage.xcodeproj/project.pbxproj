@@ -23,6 +23,13 @@
 		22DDC8781710231F00CD41D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC8531710231F00CD41D0 /* Foundation.framework */; };
 		22DDC8801710231F00CD41D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22DDC87E1710231F00CD41D0 /* InfoPlist.strings */; };
 		22DDC8831710231F00CD41D0 /* KebbabageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8821710231F00CD41D0 /* KebbabageTests.m */; };
+		22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC88E1710250E00CD41D0 /* MapKit.framework */; };
+		22DDC893171025FC00CD41D0 /* PostcodeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC892171025FC00CD41D0 /* PostcodeClient.m */; };
+		22DDC899171026EC00CD41D0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */; };
+		22DDC89B1710270900CD41D0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */; };
+		22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDC8A117102B0100CD41D0 /* JsonParser.m */; };
+		52DD6369665046DFB7E4437F /* libPods-KebbabageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */; };
+		D022B13364114B39B407E11E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 387B465375294EC0911FD204 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,19 @@
 		22DDC87F1710231F00CD41D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22DDC8811710231F00CD41D0 /* KebbabageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KebbabageTests.h; sourceTree = "<group>"; };
 		22DDC8821710231F00CD41D0 /* KebbabageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KebbabageTests.m; sourceTree = "<group>"; };
+		22DDC88E1710250E00CD41D0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		22DDC891171025FC00CD41D0 /* PostcodeClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostcodeClient.h; sourceTree = "<group>"; };
+		22DDC892171025FC00CD41D0 /* PostcodeClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostcodeClient.m; sourceTree = "<group>"; };
+		22DDC8951710262500CD41D0 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		22DDC8A017102B0100CD41D0 /* JsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonParser.h; sourceTree = "<group>"; };
+		22DDC8A117102B0100CD41D0 /* JsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonParser.m; sourceTree = "<group>"; };
+		22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBBParsingProtocol.h; sourceTree = "<group>"; };
+		2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KebbabageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387B465375294EC0911FD204 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KebbabageTests.xcconfig"; path = "Pods/Pods-KebbabageTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		E5E54A348F2446488B00CFE8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +85,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DDC89B1710270900CD41D0 /* MobileCoreServices.framework in Frameworks */,
+				22DDC899171026EC00CD41D0 /* SystemConfiguration.framework in Frameworks */,
+				22DDC88F1710250E00CD41D0 /* MapKit.framework in Frameworks */,
 				22DDC8521710231F00CD41D0 /* UIKit.framework in Frameworks */,
 				22DDC8541710231F00CD41D0 /* Foundation.framework in Frameworks */,
 				22DDC8561710231F00CD41D0 /* CoreGraphics.framework in Frameworks */,
+				D022B13364114B39B407E11E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,7 @@
 				22DDC8761710231F00CD41D0 /* SenTestingKit.framework in Frameworks */,
 				22DDC8771710231F00CD41D0 /* UIKit.framework in Frameworks */,
 				22DDC8781710231F00CD41D0 /* Foundation.framework in Frameworks */,
+				52DD6369665046DFB7E4437F /* libPods-KebbabageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +116,8 @@
 				22DDC87B1710231F00CD41D0 /* KebbabageTests */,
 				22DDC8501710231F00CD41D0 /* Frameworks */,
 				22DDC84F1710231F00CD41D0 /* Products */,
+				E5E54A348F2446488B00CFE8 /* Pods.xcconfig */,
+				612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +133,15 @@
 		22DDC8501710231F00CD41D0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22DDC89A1710270900CD41D0 /* MobileCoreServices.framework */,
+				22DDC898171026EC00CD41D0 /* SystemConfiguration.framework */,
+				22DDC88E1710250E00CD41D0 /* MapKit.framework */,
 				22DDC8511710231F00CD41D0 /* UIKit.framework */,
 				22DDC8531710231F00CD41D0 /* Foundation.framework */,
 				22DDC8551710231F00CD41D0 /* CoreGraphics.framework */,
 				22DDC8751710231F00CD41D0 /* SenTestingKit.framework */,
+				387B465375294EC0911FD204 /* libPods.a */,
+				2B8C478AC09E4F98964381C3 /* libPods-KebbabageTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +149,10 @@
 		22DDC8571710231F00CD41D0 /* Kebbabage */ = {
 			isa = PBXGroup;
 			children = (
-				22DDC8601710231F00CD41D0 /* KBBAppDelegate.h */,
-				22DDC8611710231F00CD41D0 /* KBBAppDelegate.m */,
-				22DDC8691710231F00CD41D0 /* KBBViewController.h */,
-				22DDC86A1710231F00CD41D0 /* KBBViewController.m */,
-				22DDC86C1710231F00CD41D0 /* KBBViewController.xib */,
+				22DDC8941710261800CD41D0 /* Common */,
+				22DDC88C1710249C00CD41D0 /* App delegate */,
+				22DDC88D171024AB00CD41D0 /* Front end */,
+				22DDC8901710259F00CD41D0 /* Back end */,
 				22DDC8581710231F00CD41D0 /* Supporting Files */,
 			);
 			path = Kebbabage;
@@ -160,6 +191,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22DDC88C1710249C00CD41D0 /* App delegate */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8601710231F00CD41D0 /* KBBAppDelegate.h */,
+				22DDC8611710231F00CD41D0 /* KBBAppDelegate.m */,
+			);
+			name = "App delegate";
+			sourceTree = "<group>";
+		};
+		22DDC88D171024AB00CD41D0 /* Front end */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8691710231F00CD41D0 /* KBBViewController.h */,
+				22DDC86A1710231F00CD41D0 /* KBBViewController.m */,
+				22DDC86C1710231F00CD41D0 /* KBBViewController.xib */,
+			);
+			name = "Front end";
+			sourceTree = "<group>";
+		};
+		22DDC8901710259F00CD41D0 /* Back end */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8A317102BF900CD41D0 /* KBBParsingProtocol.h */,
+				22DDC891171025FC00CD41D0 /* PostcodeClient.h */,
+				22DDC892171025FC00CD41D0 /* PostcodeClient.m */,
+				22DDC8A017102B0100CD41D0 /* JsonParser.h */,
+				22DDC8A117102B0100CD41D0 /* JsonParser.m */,
+			);
+			name = "Back end";
+			sourceTree = "<group>";
+		};
+		22DDC8941710261800CD41D0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22DDC8951710262500CD41D0 /* Config.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +240,7 @@
 				22DDC84A1710231F00CD41D0 /* Sources */,
 				22DDC84B1710231F00CD41D0 /* Frameworks */,
 				22DDC84C1710231F00CD41D0 /* Resources */,
+				C3D672BD178D4AE283603737 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +259,7 @@
 				22DDC8701710231F00CD41D0 /* Frameworks */,
 				22DDC8711710231F00CD41D0 /* Resources */,
 				22DDC8721710231F00CD41D0 /* ShellScript */,
+				472A2E5893B14801A49CDB25 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +336,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		472A2E5893B14801A49CDB25 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KebbabageTests-resources.sh\"\n";
+		};
+		C3D672BD178D4AE283603737 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -274,6 +374,8 @@
 				22DDC85E1710231F00CD41D0 /* main.m in Sources */,
 				22DDC8621710231F00CD41D0 /* KBBAppDelegate.m in Sources */,
 				22DDC86B1710231F00CD41D0 /* KBBViewController.m in Sources */,
+				22DDC893171025FC00CD41D0 /* PostcodeClient.m in Sources */,
+				22DDC8A217102B0100CD41D0 /* JsonParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +483,7 @@
 		};
 		22DDC8871710231F00CD41D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E54A348F2446488B00CFE8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kebbabage/Kebbabage-Prefix.pch";
@@ -392,6 +495,7 @@
 		};
 		22DDC8881710231F00CD41D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E54A348F2446488B00CFE8 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Kebbabage/Kebbabage-Prefix.pch";
@@ -403,6 +507,7 @@
 		};
 		22DDC88A1710231F00CD41D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kebbabage.app/Kebbabage";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -420,6 +525,7 @@
 		};
 		22DDC88B1710231F00CD41D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 612659FF51CA4C3BA8643537 /* Pods-KebbabageTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kebbabage.app/Kebbabage";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -454,6 +560,7 @@
 				22DDC8881710231F00CD41D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22DDC8891710231F00CD41D0 /* Build configuration list for PBXNativeTarget "KebbabageTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +569,7 @@
 				22DDC88B1710231F00CD41D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
