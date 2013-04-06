@@ -95,13 +95,10 @@
 }
 
 -(void)getLatLongForArrayOfObjects:(NSArray *)outletsArray {
-    
     NSMutableArray *operationsArray = [[NSMutableArray alloc] init];
-    
     for (KBBOutlet *outlet in outletsArray) {
     
         // GET http://uk-postcodes.com/postcode/<postcode>.json
-        
         NSString *postcode = [outlet postCode];
         
         NSString *urlString = [NSString stringWithFormat:@"%@postcode/%@.json", kPostcodeApiUrl, postcode];
@@ -112,37 +109,22 @@
         
         AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
             // SUCCESS
-            
-            NSLog(@"success parsing postcode");
-            
             NSDictionary *geoDictionary = [JSON objectForKey:@"geo"];
-            
             NSString *latString = [geoDictionary objectForKey:@"lat"];
             NSString *lngString = [geoDictionary objectForKey:@"lng"];
-            
             [outlet setLatitude:[latString floatValue]];
             [outlet setLongitude:[lngString floatValue]];
-            
         } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
             // FAILURE
             NSLog(@"Error in PostCode: %@", error);
-            
         }];
-        
         [operation setShouldExecuteAsBackgroundTaskWithExpirationHandler:nil];
-        
         [operationsArray addObject:operation];
-    
     }
     
     AFHTTPClient *client = [AFHTTPClient clientWithBaseURL:[NSURL URLWithString:kPostcodeApiUrl]];
-    
-    [client enqueueBatchOfHTTPRequestOperations:operationsArray progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
-        //
-    } completionBlock:^(NSArray *operations) {
-        
+    [client enqueueBatchOfHTTPRequestOperations:operationsArray progressBlock:nil completionBlock:^(NSArray *operations) {
         [self.delegate plotOutlets:outletsArray];
-        
     }];
     
 }
